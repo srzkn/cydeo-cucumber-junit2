@@ -13,13 +13,16 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 //"me.jvt.cucumber.report.PrettyReports:target/cucumber"
                 "pretty:target/cucumber-htmlreport.text",
-                "json:target/cucmber-report.json"
+                "pretty", "html:target/cucumber",
+                "json:target/cucmber-report.json",
+                "json:target/cucumber.json"
+                //"junit:target/junit/junit-report.xml"
 
         },
         features = "src/test/resources/features",
         glue ="com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@Reg",
+        tags = "@Smoke",
         publish = true
 )
 public class CukesRunner{
