@@ -1,4 +1,4 @@
-@Reg @login @smoke
+@Reg @login
 Feature: Library app login feature
   User Story:
   As a user, I should be able to login with correct credentials to different
@@ -9,7 +9,7 @@ Feature: Library app login feature
   Background: For the scenarios in the feature file, use is expected to be on login page
     Given user is on the library login page
 
-  @librarian @employee @wer
+  @librarian @employee @wip
   Scenario: Login as librarian
     When user enters librarian username
     And user enters librarian password

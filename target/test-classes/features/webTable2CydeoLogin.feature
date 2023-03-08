@@ -1,4 +1,3 @@
-@smoke
 Feature: Cydeo Web Tables Application login feature
   Agile Story:
   As a user, I should be able to login and land on the page that its' url ends with "orders".

@@ -1,4 +1,3 @@
-@smoke
 Feature: Wikipedia Search Functionality and verifications
   Agile story: As a user, when I am on the Wikipedia search page
   I should be able to search whatever I want and see relevant information

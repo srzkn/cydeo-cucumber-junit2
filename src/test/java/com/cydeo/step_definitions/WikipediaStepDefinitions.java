@@ -23,7 +23,7 @@ public class WikipediaStepDefinitions {
 
     @Then("user sees {string} in the wiki title")
     public void user_sees_is_in_the_wiki_title(String string) {
-        String expectedTitle=string+" - Vikipedi";
+        String expectedTitle=string+" - Wikipedia";
         String actualTitle=Driver.getDriver().getTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
     }
