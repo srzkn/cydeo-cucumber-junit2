@@ -10,20 +10,19 @@ import org.junit.runner.RunWith;
         plugin = {
                 //"pretty",
                 "html:target/cucumber-report.html",
+                "json:target/cucumber.json",
                 "rerun:target/rerun.txt",
                 //"me.jvt.cucumber.report.PrettyReports:target/cucumber"
-                "pretty:target/cucumber-htmlreport.text",
-                "pretty", "html:target/cucumber",
-                "json:target/cucmber-report.json",
-                "json:target/cucumber.json"
+                //"pretty:target/cucumber-htmlreport.text",
+                //"pretty", "html:target/cucumber"
                 //"junit:target/junit/junit-report.xml"
 
         },
         features = "src/test/resources/features",
         glue ="com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@Smoke",
-        publish = true
+        tags = "@wqwerty"
+        //publish = true
 )
 public class CukesRunner{
 }

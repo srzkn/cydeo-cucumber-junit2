@@ -46,8 +46,8 @@ public class Driver {
             switch (browserType){
                 case "remote-chrome":
                     try{
-                        //assign your grid server address
-                        String gridAddress = "54.237.57.88";
+                        //assign your grid server address (AWS Public IPv4 address)
+                        String gridAddress = "100.24.72.249";
                         URL url = new URL("http://"+gridAddress + ":4444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
